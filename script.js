@@ -1,6 +1,6 @@
 // add javascript here
-document.getElementById("myBtn")?.addEventListener("Click", () => {
-    document.getElementById("my-offerings").toggleAttribute("hidden");
+document.getElementById("Button")?.addEventListener("click", () =>{
+    document.getElementById("tips").toggleAttribute("hidden");
 })
 
 document.getElementById("questionBtn")?.addEventListener("click", () =>{
