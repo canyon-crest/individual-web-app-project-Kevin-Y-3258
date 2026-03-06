@@ -1,6 +1,7 @@
 // add javascript here
 document.getElementById("Button")?.addEventListener("click", () =>{
-    document.getElementById("tips").toggleAttribute("hidden");
+    const tip = document.getElementById("tips");
+    tip.hidden = !tip.hidden;
 })
 
 document.getElementById("questionBtn")?.addEventListener("click", () =>{
